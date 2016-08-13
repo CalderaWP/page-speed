@@ -1,0 +1,22 @@
+{
+  "name": "calderawp/page-speed",
+  "description": "Get Google Page Speed data for a given URL",
+  "type": "library",
+  "license": "GPLv2+",
+  "authors": [
+    {
+      "name": "Josh Pollock",
+      "email": "Josh@calderawp.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "calderawp/object": "*",
+    "rmccue/requests": ">=1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "calderawp\\speed\\": "src/"
+    }
+  }
+}
